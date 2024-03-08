@@ -1,10 +1,10 @@
 .home-intro {
     width: 100%;
     height: calc(100vh - 95.5px);
-    background: red;
     background: url('../../assets/images/home-intro.png') no-repeat;
     background-size: cover;
     position: relative;
+
     &::before {
         content: "";
         position: absolute;
@@ -14,5 +14,163 @@
         width: 500px;
         height: 205px;
         background: url('../../assets/images/home-intro-logo.png') no-repeat;
+    }
+}
+
+.food-type {
+    padding: 100px 0;
+
+    &-title {
+        font-family: 'Bellefair', sans-serif;
+        font-size: 67px;
+        font-weight: 400;
+        text-align: center;
+        margin: 50px 0;
+        color: #96912D;
+    }
+
+    &-list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        &-item {
+            a {
+                width: 285px;
+                height: 356px;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-items: center;
+                background: rebeccapurple;
+                border-radius: 15px;
+                background: #EBE6B4;
+
+                img {
+                    margin: 25px 0;
+                }
+
+                .name {
+                    display: inline-block;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 30px;
+                    font-weight: 275;
+                    text-align: center;
+                    color: #000000;
+                }
+            }
+        }
+    }
+
+    .btn-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .order-btn {
+            font-family: 'Poppins', sans-serif;
+            font-size: 35px;
+            font-weight: 500;
+            color: #EBE6B4;
+            background: #96912D;
+            border-radius: 10px;
+            padding: 10px 25px;
+            border: none;
+            margin: 50px 0;
+            box-shadow: #69661e 5px 5px 10px;
+            transition: all ease 0.5s;
+
+            &:hover {
+                box-shadow: #69661e 0 0 0;
+            }
+
+            &:active {
+                opacity: 0.8;
+            }
+        }
+    }
+}
+
+.info {
+    background: rgba(105, 102, 30, 0.23);
+
+    &-list {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+        &:last-child {
+            flex-direction: row-reverse;
+            .info-list-right-title{
+                text-decoration: underline 2px;
+            }
+        }
+
+        &-left {
+            width: 50%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        &-right {
+            width: 50%;
+            padding: 50px;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            &-title {
+                color: #96912D;
+                font-family: 'Bellefair', sans-serif;
+                font-size: 67px;
+                font-weight: 400;
+            }
+
+            &-subtitle {
+                font-family: 'Poppins', sans-serif;
+                font-size: 20px;
+                font-weight: 275;
+                line-height: 30px;
+                color: #494612;
+            }
+        }
+    }
+}
+
+.advertisement{
+    width: 100%;
+    height: 100vh;
+    background: url('../../assets/images/adv-back.png') no-repeat;
+    background-size: cover;
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 100%;
+    }
+    &-box{
+        text-align: center;
+        width: 100%;
+        background: #F5F0D285;
+        padding: 100px;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-logo{
+            width: 170px;
+        }
+        &-title{
+            font-family: 'Bellefair', sans-serif;
+            font-size: 94px;
+            color: #000000;
+            margin: 200px 0;
+        }
     }
 }

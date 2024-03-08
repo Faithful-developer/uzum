@@ -1,0 +1,37 @@
+.footer{
+    background: #F5F0D2;
+    padding: 30px 0;
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-link-left, &-link-right{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        a{
+            color: #96912D;
+        }
+    }
+    &-link-left-item{
+        a{
+            font-family: 'Inria Sans', sans-serif;
+            padding: 10px 15px;
+            font-size: 16px;
+            &:first-child{
+                padding-left: 0;
+            }
+        }
+    }
+    &-link-right-item{
+        a{
+            padding: 15px 20px;
+            &:last-child{
+                padding-right: 0;
+            }
+        }
+    }
+}
