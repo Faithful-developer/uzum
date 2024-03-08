@@ -1,0 +1,18 @@
+.home-intro {
+    width: 100%;
+    height: calc(100vh - 95.5px);
+    background: red;
+    background: url('../../assets/images/home-intro.png') no-repeat;
+    background-size: cover;
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        height: 205px;
+        background: url('../../assets/images/home-intro-logo.png') no-repeat;
+    }
+}

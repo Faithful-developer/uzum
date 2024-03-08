@@ -1,0 +1,28 @@
+.header{
+    background: #F5F0D2;
+    padding: 15px 0;
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-link{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        &-item{
+            padding: 15px;
+            &:last-child{
+                padding-right: 0;
+            }
+            a{
+                color: #96912D;
+                transition: all ease 0.5s;
+                &:hover{
+                    color: #69661e;
+                }
+            }
+        }
+    }
+}
