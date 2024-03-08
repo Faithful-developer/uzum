@@ -17,7 +17,7 @@ const Footer = () => {
                         </li>
                         <li className="footer-link-left-item">
                             <Link to='/'>
-                                About uss
+                                About us
                             </Link>
                         </li>
                         <li className="footer-link-left-item">
