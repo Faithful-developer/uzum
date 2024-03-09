@@ -3,6 +3,7 @@
     height: calc(100vh - 95.5px);
     background: url('../../assets/images/home-intro.png') no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
 
     &::before {
