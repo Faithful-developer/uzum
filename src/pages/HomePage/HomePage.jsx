@@ -9,6 +9,7 @@ import adv from '../../assets/images/adv-logo.png'
 import Footer from "../../container/Footer";
 
 const HomePage = () => {
+
     return (
         <>
             <section className="home-intro">

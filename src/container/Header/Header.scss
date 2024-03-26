@@ -1,29 +1,113 @@
-.header{
+.header {
     background: #F5F0D2;
     padding: 15px 0;
-    .container{
+
+    .container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+
+        .burger-button {
+            display: none;
+        }
+
+        .shadow {
+            position: absolute;
+            z-index: 3;
+            width: 0;
+            top: 0;
+            right: 0;
+            transition: all ease 0.5s;
+        }
     }
-    &-link{
+
+    &-link {
         display: flex;
         flex-wrap: wrap;
         list-style: none;
-        &-item{
+
+        &-item {
             padding: 15px;
-            &:last-child{
+
+            &:last-child {
                 padding-right: 0;
             }
-            a{
+
+            a {
                 font-family: "Inria Sans", sans-serif;
                 color: #96912D;
-                transition: all ease 0.5s;
-                &:hover{
-                    color: #69661e;
+                transition: all ease 1s;
+
+                &:hover {
+                    color: #48440c;
+                    text-decoration: underline;
                 }
             }
+
+            &.active {
+                a {
+                    color: #48440c;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header {
+        .container {
+            .shadow {
+                position: absolute;
+                z-index: 3;
+                width: 0;
+                top: 0;
+                right: 0;
+                transition: width ease-in-out 0.5s, height ease-in-out 0.5s, background ease-in-out 0.5s; /* Add transitions for width, height, and background */
+
+                &.active {
+                    width: 100%;
+                    height: 100vh;
+                    background: #69661E79;
+                }
+            }
+
+            .burger-button {
+                position: relative;
+                display: block;
+                background: none;
+                border: none;
+                outline: none;
+                z-index: 5;
+
+                .a, .b, .c {
+                    width: 50px;
+                    height: 4px;
+                    margin: 5px 0;
+                    background: black;
+                    transition: all ease 0.5s;
+                }
+
+                &.active {
+                    .a {
+                        transform: translateY(10px) rotate(45deg);
+                    }
+
+                    .b {
+                        opacity: 0;
+                    }
+
+                    .c {
+                        transform: translateY(-10px) rotate(-45deg);
+
+                    }
+                }
+            }
+        }
+
+        &-link {
+            display: none;
         }
     }
 }
