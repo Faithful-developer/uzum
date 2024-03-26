@@ -16,6 +16,7 @@
             position: absolute;
             z-index: 3;
             width: 0;
+            height: 100vh;
             top: 0;
             right: 0;
             transition: all ease 0.5s;
@@ -64,11 +65,11 @@
                 width: 0;
                 top: 0;
                 right: 0;
-                transition: width ease-in-out 0.5s, height ease-in-out 0.5s, background ease-in-out 0.5s; /* Add transitions for width, height, and background */
+                transition: all ease 0.5s;
 
                 &.active {
                     width: 100%;
-                    height: 100vh;
+                    transition: all ease 0.5s;
                     background: #69661E79;
                 }
             }
