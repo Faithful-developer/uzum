@@ -35,3 +35,16 @@
         }
     }
 }
+
+@media screen and (max-width: 576px) {
+    .footer{
+        .container{
+            flex-direction: column;
+        }
+        &-link-left, &-link-right{
+            width: 100%;
+            margin: 10px 0;
+            justify-content: center;
+        }
+    }
+}

@@ -21,6 +21,16 @@
             right: 0;
             transition: all ease 0.5s;
         }
+
+        .mobile-menu {
+            position: absolute;
+            z-index: 3;
+            width: 0;
+            height: 100vh;
+            top: -100%;
+            right: -50%;
+            transition: all ease 0.5s;
+        }
     }
 
     &-link {
@@ -102,6 +112,26 @@
                     .c {
                         transform: translateY(-10px) rotate(-45deg);
 
+                    }
+                }
+            }
+            .mobile-menu{
+                &.active{
+                    width: 50%;
+                    background: #48440c;
+                    padding: 100px;
+                    right: 0;
+                    top: 0;
+                }
+                &-list{
+                    list-style: none;
+                    &-item{
+                        a{
+                            text-decoration: none;
+                            color: #FFFFFF;
+                            display: inline-block;
+                            padding: 10px 0;
+                        }
                     }
                 }
             }

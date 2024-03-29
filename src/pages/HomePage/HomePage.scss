@@ -206,5 +206,23 @@
 }
 
 @media screen and (max-width: 576px) {
-
+    .info{
+        &-list{
+            flex-direction: column;
+            &-left, &-right{
+                width: 100%;
+            }
+        }
+    }
+    .advertisement{
+        &-box{
+            height: 700px;
+            &-logo{
+                width: 100px;
+            }
+            h2{
+                font-size: 50px;
+            }
+        }
+    }
 }

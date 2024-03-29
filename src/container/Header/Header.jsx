@@ -54,6 +54,40 @@ const Header = () => {
                     <div className="c"></div>
                 </button>
                 <div className={`shadow ${mobileMenu ? 'active' : ''}`}/>
+                <div className={`mobile-menu ${mobileMenu ? 'active' : ''}`}>
+                    <ul className="mobile-menu-list">
+                        <li className="mobile-menu-list-item">
+                            <Link to='/'>
+                                Home
+                            </Link>
+                        </li>
+                        <li className="mobile-menu-list-item">
+                            <Link to='/'>
+                                About us
+                            </Link>
+                        </li>
+                        <li className="mobile-menu-list-item">
+                            <Link to='/'>
+                                Menu
+                            </Link>
+                        </li>
+                        <li className="mobile-menu-list-item">
+                            <Link to='/'>
+                                Reservation
+                            </Link>
+                        </li>
+                        <li className="mobile-menu-list-item">
+                            <Link to='/'>
+                                Gallery
+                            </Link>
+                        </li>
+                        <li className="mobile-menu-list-item">
+                            <Link to='/'>
+                                Contact
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </header>
     )
