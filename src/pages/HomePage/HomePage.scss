@@ -206,6 +206,18 @@
 }
 
 @media screen and (max-width: 576px) {
+    .home-intro {
+        &::before {
+            content: "";
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 305px;
+            height: 125px;
+            background-size: cover;
+        }
+    }
     .info{
         &-list{
             flex-direction: column;
