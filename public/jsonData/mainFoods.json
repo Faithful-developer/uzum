@@ -1,0 +1,67 @@
+[
+  {
+    "foodImgLink": "/images/mainFoods/beefstea.png",
+    "foodName": "Beef steak",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/mainFoods/beefstrogan.png",
+    "foodName": "Beef Strogan",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/mainFoods/beshbarmak.png",
+    "foodName": "Beshbarmak",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/mainFoods/dolma.png",
+    "foodName": "Dolma",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/mainFoods/Dumpling.png",
+    "foodName": "Dumblings",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/mainFoods/fish.png",
+    "foodName": "Fish 300gr",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/mainFoods/halim.png",
+    "foodName": "Halim",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/mainFoods/jiz.png",
+    "foodName": "Jiz",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/mainFoods/kazankebab.png",
+    "foodName": "Kazan kebab",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/mainFoods/norin.png",
+    "foodName": "Norin",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/mainFoods/peas.png",
+    "foodName": "Peas",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/mainFoods/plov.png",
+    "foodName": "Plov",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/mainFoods/stew.png",
+    "foodName": "Stew",
+    "foodPrice": "32.000"
+  }
+]

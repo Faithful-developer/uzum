@@ -1,0 +1,37 @@
+[
+  {
+    "foodImgLink": "/images/first/beefsoup.png",
+    "foodName": "Beef Soup",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/first/jarsouop.png",
+    "foodName": "Jar Soup",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/first/lagman.png",
+    "foodName": "Lagman",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/first/lambsoup.png",
+    "foodName": "Lamb Soup",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/first/lentil.png",
+    "foodName": "Lentil Soup",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/first/mastava.png",
+    "foodName": "Mastava",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/first/Mushrroomsoup.png",
+    "foodName": "Mushroom soup",
+    "foodPrice": "32.000"
+  }
+]

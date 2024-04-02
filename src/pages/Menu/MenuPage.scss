@@ -1,0 +1,40 @@
+.top-menu-list{
+    &-name{
+        font-family: 'Bellefair', sans-serif;
+        color: #96912D;
+        font-size: 67px;
+        text-align: center;
+        margin: 50px 0;
+    }
+    &-links{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        &-item{
+            a{
+                font-family: 'Poppins', sans-serif;
+                font-size: 24px;
+                text-decoration: none;
+                color: #494612;
+            }
+        }
+    }
+}
+
+.menu-list{
+    .container{
+        h2{
+            font-size: 32px;
+            color: #494612;
+            text-decoration: underline;
+        }
+    }
+    &-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        list-style: none;
+    }
+}

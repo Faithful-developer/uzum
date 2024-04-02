@@ -1,0 +1,19 @@
+.menu-list-item{
+    width: 250px;
+    min-height: 300px;
+    margin: 30px 0;
+    img{
+        width: 100%;
+    }
+    &-context{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items:center;
+        p{
+            font-family: 'Poppins', sans-serif;
+            font-size: 26px;
+            color: #494612;
+        }
+    }
+}

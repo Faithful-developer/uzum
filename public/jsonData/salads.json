@@ -1,0 +1,47 @@
+[
+  {
+    "foodImgLink": "/images/saladImages/bahor.png",
+    "foodName": "Bahor",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/saladImages/malewhim.png",
+    "foodName": "Male Whim",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/saladImages/suzma.png",
+    "foodName": "Suzma",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/saladImages/greek.png",
+    "foodName": "Greek Salad",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/saladImages/pickles.png",
+    "foodName": "Pickles",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/saladImages/french.png",
+    "foodName": "French Salad",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/saladImages/achik-chuchuk.png",
+    "foodName": "Achik - chuchuk",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/saladImages/ideal.png",
+    "foodName": "Ideal Salad",
+    "foodPrice": "32.000"
+  },
+  {
+    "foodImgLink": "/images/saladImages/japanese.png",
+    "foodName": "Japanese",
+    "foodPrice": "32.000"
+  }
+]
