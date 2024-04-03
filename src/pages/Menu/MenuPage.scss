@@ -29,6 +29,7 @@
             font-size: 32px;
             color: #494612;
             text-decoration: underline;
+            margin: 50px 0;
         }
     }
     &-container{
@@ -36,5 +37,18 @@
         flex-wrap: wrap;
         justify-content: space-between;
         list-style: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .top-menu-list{
+        &-links{
+            flex-direction: column;
+            a{
+                margin: 5px 0;
+                display: inline-block;
+                font-size: 20px;
+            }
+        }
     }
 }

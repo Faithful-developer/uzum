@@ -3,6 +3,8 @@ import MenuItem from "../../components/MenuItem";
 import {useEffect, useState} from "react";
 import axios from "axios";
 import {HashLink as Link} from "react-router-hash-link";
+import Footer from "../../container/Footer/Footer";
+import {Helmet} from "react-helmet";
 
 const MenuPage = () => {
     const [saladData, setSaladData] = useState([]);
@@ -71,6 +73,9 @@ const MenuPage = () => {
 
     return (
         <>
+            <Helmet>
+                <title>Uzum uz | Menu Page</title>
+            </Helmet>
             <section className="top-menu-list">
                 <div className="container">
                     <h2 className="top-menu-list-name">
@@ -232,6 +237,7 @@ const MenuPage = () => {
                     </ul>
                 </div>
             </section>
+            <Footer/>
         </>
     )
 }

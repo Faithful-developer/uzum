@@ -7,11 +7,15 @@ import info1 from '../../assets/images/info-1.png'
 import info2 from '../../assets/images/info-2.png'
 import adv from '../../assets/images/adv-logo.png'
 import Footer from "../../container/Footer";
+import {Helmet} from "react-helmet";
 
 const HomePage = () => {
 
     return (
         <>
+            <Helmet>
+                <title>Uzum uz | Home Page</title>
+            </Helmet>
             <section className="home-intro">
             </section>
             <section className="food-type">
