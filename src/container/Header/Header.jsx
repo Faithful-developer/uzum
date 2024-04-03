@@ -2,6 +2,7 @@ import './Header.scss'
 import headerLogo from '../../assets/images/icons/logo-header.png'
 import {Link, useLocation} from "react-router-dom";
 import {useState} from "react";
+import {HashLink as Link1} from "react-router-hash-link";
 
 const Header = () => {
     const [mobileMenu, setMobileMenu] = useState(false);
@@ -23,9 +24,9 @@ const Header = () => {
                         </Link>
                     </li>
                     <li className={`header-link-item ${location.pathname === '/about-us' ? 'active' : ''}`}>
-                        <Link to='/about-us'>
+                        <Link1 smooth to='/#about'>
                             About us
-                        </Link>
+                        </Link1>
                     </li>
                     <li className={`header-link-item ${location.pathname === '/Menu' ? 'active' : ''}`}>
                         <Link to='/menu'>
@@ -56,32 +57,27 @@ const Header = () => {
                 <div className={`shadow ${mobileMenu ? 'active' : ''}`}/>
                 <div className={`mobile-menu ${mobileMenu ? 'active' : ''}`}>
                     <ul className="mobile-menu-list">
-                        <li className="mobile-menu-list-item">
+                        <li className="mobile-menu-list-item" onClick={toggleHambuger}>
                             <Link to='/'>
                                 Home
                             </Link>
                         </li>
-                        <li className="mobile-menu-list-item">
+                        <li className="mobile-menu-list-item" onClick={toggleHambuger}>
                             <Link to='/'>
                                 About us
                             </Link>
                         </li>
-                        <li className="mobile-menu-list-item">
+                        <li className="mobile-menu-list-item" onClick={toggleHambuger}>
                             <Link to='/'>
                                 Menu
                             </Link>
                         </li>
-                        <li className="mobile-menu-list-item">
+                        <li className="mobile-menu-list-item" onClick={toggleHambuger}>
                             <Link to='/'>
                                 Reservation
                             </Link>
                         </li>
-                        <li className="mobile-menu-list-item">
-                            <Link to='/'>
-                                Gallery
-                            </Link>
-                        </li>
-                        <li className="mobile-menu-list-item">
+                        <li className="mobile-menu-list-item" onClick={toggleHambuger}>
                             <Link to='/'>
                                 Contact
                             </Link>

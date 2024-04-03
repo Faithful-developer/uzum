@@ -3,8 +3,8 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ErrorPage from "./pages/ErrorPage";
 import Header from "./container/Header/Header";
-import AboutPage from "./pages/About";
 import MenuPage from "./pages/Menu";
+import Reservation from "./pages/Reservation";
 
 const App = () => {
     return (
@@ -13,8 +13,8 @@ const App = () => {
                 <Header/>
                 <Routes>
                     <Route path='/' element={<HomePage/>}/>
-                    <Route path='about-us' element={<AboutPage/>} />
                     <Route path='/menu' element={<MenuPage/>}/>
+                    <Route path='/reservation' element={<Reservation/>}/>
                     <Route path='/*' element={<ErrorPage/>}/>
                 </Routes>
             </Router>

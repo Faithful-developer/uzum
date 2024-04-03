@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import instagram from '../../assets/images/icons/instagram.svg'
 import telegram from '../../assets/images/icons/telegram.svg'
 import map from '../../assets/images/icons/map.svg'
+import {HashLink as Link1} from "react-router-hash-link";
 
 const Footer = () => {
     return (
@@ -16,9 +17,9 @@ const Footer = () => {
                             </Link>
                         </li>
                         <li className="footer-link-left-item">
-                            <Link to='/'>
+                            <Link1 smooth to='/#about'>
                                 About us
-                            </Link>
+                            </Link1>
                         </li>
                         <li className="footer-link-left-item">
                             <Link to='/'>
@@ -28,11 +29,6 @@ const Footer = () => {
                         <li className="footer-link-left-item">
                             <Link to='/'>
                                 Reservation
-                            </Link>
-                        </li>
-                        <li className="footer-link-left-item">
-                            <Link to='/'>
-                                Gallery
                             </Link>
                         </li>
                         <li className="footer-link-left-item">

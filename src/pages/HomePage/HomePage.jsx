@@ -54,7 +54,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
-            <section className="info">
+            <section className="info" id='about'>
                 <div className="container">
                     <div className="info-list">
                         <div className="info-list-left">
