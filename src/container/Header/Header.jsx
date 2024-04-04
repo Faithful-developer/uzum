@@ -38,11 +38,6 @@ const Header = () => {
                             Reservation
                         </Link>
                     </li>
-                    <li className={`header-link-item ${location.pathname === '/gallery' ? 'active' : ''}`}>
-                        <Link to='/gallery'>
-                            Gallery
-                        </Link>
-                    </li>
                     <li className={`header-link-item ${location.pathname === '/contact' ? 'active' : ''}`}>
                         <Link to='/contact'>
                             Contact

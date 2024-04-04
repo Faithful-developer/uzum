@@ -21,6 +21,25 @@ a{
     text-decoration: none;
 }
 
+.home-intro {
+    width: 100%;
+    height: calc(100vh - 95.5px);
+    background: url('./images/home-intro.png') fixed;
+    background-size: cover;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        height: 205px;
+        background: url('./images/home-intro-logo.png') no-repeat;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
     .container{
@@ -31,5 +50,17 @@ a{
 @media screen and (max-width: 576px) {
     .container{
         max-width: 540px;
+    }
+    .home-intro {
+        &::before {
+            content: "";
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 305px;
+            height: 125px;
+            background-size: cover;
+        }
     }
 }

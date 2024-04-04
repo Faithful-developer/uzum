@@ -5,6 +5,7 @@ import ErrorPage from "./pages/ErrorPage";
 import Header from "./container/Header/Header";
 import MenuPage from "./pages/Menu";
 import Reservation from "./pages/Reservation";
+import ContactPage from "./pages/Contact";
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
                     <Route path='/' element={<HomePage/>}/>
                     <Route path='/menu' element={<MenuPage/>}/>
                     <Route path='/reservation' element={<Reservation/>}/>
+                    <Route path='/contact' element={<ContactPage/>}/>
                     <Route path='/*' element={<ErrorPage/>}/>
                 </Routes>
             </Router>

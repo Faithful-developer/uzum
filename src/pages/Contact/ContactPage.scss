@@ -1,0 +1,123 @@
+.contact {
+    &-title {
+        font-family: 'Bellefair', sans-serif;
+        font-size: 67px;
+        color: #96912D;
+        text-align: center;
+    }
+
+    &-links {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+        &-left, &-right {
+            margin: 50px 0;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            a {
+                margin: 10px 0 20px 30px;
+                font-family: 'Inria Sans', sans-serif;
+                color: #000000;
+                font-size: 32px;
+                text-decoration: none;
+                position: relative;
+            }
+
+            .phone {
+                &::before {
+                    content: "";
+                    background: url("../../assets/images/icons/phone.svg") no-repeat;
+                    width: 50px;
+                    height: 50px;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: -55px;
+                    background-size: cover;
+                }
+            }
+
+            .instagram {
+                &::before {
+                    content: "";
+                    background: url("../../assets/images/icons/instagram-1.svg") no-repeat;
+                    width: 52.03px;
+                    height: 50.02px;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: -55px;
+                    background-size: contain;
+                }
+            }
+
+            .telegram {
+                &::before {
+                    content: "";
+                    background: url("../../assets/images/icons/telegram-1.svg") no-repeat;
+                    width: 50px;
+                    height: 50px;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: -55px;
+                    background-size: cover;
+                }
+            }
+
+            .facebook {
+                &::before {
+                    content: "";
+                    background: url("../../assets/images/icons/facebook.svg") no-repeat;
+                    width: 50px;
+                    height: 50px;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: -55px;
+                    background-size: cover;
+                }
+            }
+        }
+    }
+}
+
+.location {
+    iframe {
+        border: none;
+        width: 100%;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contact {
+        &-links {
+            flex-direction: column;
+            align-items: center;
+            margin: 50px 0;
+
+            &-left, &-right {
+                margin: 0;
+                width: 100%;
+                text-align: center;
+                align-items: center;
+                a {
+                    font-size: 20px;
+                    margin: 10px 0;
+                }
+                .phone, .instagram, .telegram, .facebook{
+                    &::before{
+                       width: 20px;
+                        height: 20px;
+                        left: -22px;
+                    }
+                }
+            }
+        }
+    }
+}
