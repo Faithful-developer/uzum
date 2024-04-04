@@ -58,22 +58,22 @@ const Header = () => {
                             </Link>
                         </li>
                         <li className="mobile-menu-list-item" onClick={toggleHambuger}>
-                            <Link to='/'>
+                            <Link1 smooth to='/#about'>
                                 About us
-                            </Link>
+                            </Link1>
                         </li>
                         <li className="mobile-menu-list-item" onClick={toggleHambuger}>
-                            <Link to='/'>
+                            <Link to='/menu'>
                                 Menu
                             </Link>
                         </li>
                         <li className="mobile-menu-list-item" onClick={toggleHambuger}>
-                            <Link to='/'>
+                            <Link to='/reservation'>
                                 Reservation
                             </Link>
                         </li>
                         <li className="mobile-menu-list-item" onClick={toggleHambuger}>
-                            <Link to='/'>
+                            <Link to='/contact'>
                                 Contact
                             </Link>
                         </li>
