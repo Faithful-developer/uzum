@@ -1,0 +1,49 @@
+{
+     "header": {
+          "title": "Home Page",
+          "0": "Home",
+          "1": "About us",
+          "2": "Menu",
+          "3": "Reservation",
+          "4": "Contact"
+     },
+     "food-type": {
+          "0": "Beshbarmak",
+          "1": "Manti",
+          "2": "Tandoor meet"
+     },
+     "order-btn": "Order Now",
+     "info-section": {
+          "about": {
+               "title": "About Us",
+               "context": "Our national restaurant offers you unforgettable taste and experience. At Uzum National\n                                Restaurant, we take pride in honoring these time-honored culinary traditions while\n                                infusing them with a contemporary twist. Our journey began with a passion for sharing\n                                the authentic flavors of Uzbekistan with our clients."
+          },
+          "reservation": {
+               "title": "Reservation",
+               "context": " At Uzum National Restaurant, we take pride in curating an atmosphere that embraces the\n                                spirit of Uzbek hospitality. Our friendly and attentive staff are dedicated to ensuring\n                                that every guest feels welcomed and cared for from the moment they arrive."
+          }
+     },
+     "ads-banner": "Where Every Meal Feels Like Home",
+     "contact": {
+          "contact-title": "Contacts"
+     },
+     "menu": {
+          "food-type": {
+               "0": "Salads",
+               "1": "First dishes",
+               "2": "Main dishes",
+               "3": "Samsa",
+               "4": "Grill",
+               "5": "Kebab",
+               "6": "Drinks"
+          }
+     },
+     "reservation": {
+          "title": "Reservation",
+          "floor": "Choose a floor",
+          "place": "Choose a number of place",
+          "number": "Phone Number",
+          "order": "Order now",
+          "more-info": "Call for more info"
+     }
+}

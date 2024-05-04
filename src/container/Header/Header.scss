@@ -40,6 +40,15 @@
 
         &-item {
             padding: 15px;
+            &.language{
+                select{
+                    outline: none;
+                    background: transparent;
+                    border-radius: 25px;
+                    border: none;
+                    color: #96912D;
+                }
+            }
 
             &:last-child {
                 padding-right: 0;

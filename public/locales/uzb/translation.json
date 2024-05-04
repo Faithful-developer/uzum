@@ -1,0 +1,49 @@
+{
+     "header": {
+          "title": "Bosh Sahifa",
+          "0": "Bosh sahifa",
+          "1": "Biz haqimizda",
+          "2": "Menyu",
+          "3": "Band qilish",
+          "4": "Aloqa"
+     },
+     "food-type": {
+          "0": "Beshbarmak",
+          "1": "Manti",
+          "2": "Tandoor gosht"
+     },
+     "order-btn": "Hozir buyurtma bering",
+     "info-section": {
+          "about": {
+               "title": "Biz haqimizda",
+               "context": "Milliy restoranimiz sizga unutulmaz ta'am va tajriba taqdim etadi. Uzum Milliy restoranida, biz bu urg'uchilarni ta'zimlashda guruh turlari bilan tarkibga kiritgan, ularni zamonaviy tikish bilan ajrating. Bizning sayr qilishimiz, O'zbekistondagi asl taamlarni mijozlarimiz bilan ulashishga bo'lgan arzuni bilan boshlandi."
+          },
+          "reservation": {
+               "title": "Band qilish",
+               "context": "Uzum Milliy restoranida, biz O'zbek mehmondo'stligining ruhini qabul qiladigan atmosfer yaratishda g'urur duyamiz. Bizning mehmondo'stlarimiz do'stlik va diqqat bilan qat'iyat bilan har bir mehmonni qabul qilishga bag'ishlanganlar, ular kelganidan boshlab so'ng har bir mehmonning xush kelib tushishi va ehtimol."
+          }
+     },
+     "ads-banner": "Har taom uy hisoblanadi",
+     "contact": {
+          "contact-title": "Aloqa"
+     },
+     "menu": {
+          "food-type": {
+               "0": "Salatlar",
+               "1": "Birinchi taomlar",
+               "2": "Asosiy taomlar",
+               "3": "Somsa",
+               "4": "Qazon",
+               "5": "Kabob",
+               "6": "Ichimliklar"
+          }
+     },
+     "reservation": {
+          "title": "Band qilish",
+          "floor": "Qavatni tanlang",
+          "place": "Joylar sonini tanlang",
+          "number": "Telefon raqami",
+          "order": "Hozir buyurtma bering",
+          "more-info": "Qo'shimcha ma'lumot uchun qo'ng'iroq qiling"
+     }
+}

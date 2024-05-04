@@ -1,7 +1,10 @@
 import './ContactPage.scss'
 import Footer from "../../container/Footer";
+import {useTranslation} from "react-i18next";
 
 const ContactPage = () => {
+
+    const {t} = useTranslation()
     return (
         <>
             <section className="home-intro">
@@ -9,7 +12,7 @@ const ContactPage = () => {
             <div className="contact">
                 <div className="container">
                     <h2 className='contact-title'>
-                        Contacts
+                        {t("contact.contact-title")}
                     </h2>
                     <div className="contact-links">
                         <div className="contact-links-left ">

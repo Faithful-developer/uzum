@@ -5,8 +5,10 @@ import axios from "axios";
 import {HashLink as Link} from "react-router-hash-link";
 import Footer from "../../container/Footer/Footer";
 import {Helmet} from "react-helmet";
+import {useTranslation} from "react-i18next";
 
 const MenuPage = () => {
+    const {t} = useTranslation()
     const [saladData, setSaladData] = useState([]);
     const [firstData, setFirstData] = useState([]);
     const [mainData, setMainData] = useState([]);
@@ -84,37 +86,37 @@ const MenuPage = () => {
                     <ul className="top-menu-list-links">
                         <li className="top-menu-list-links-item">
                             <Link smooth to='#salads'>
-                                Salads
+                                {t("menu.food-type.0")}
                             </Link>
                         </li>
                         <li className="top-menu-list-links-item">
                             <Link smooth to='#first'>
-                                First Dishes
+                                {t("menu.food-type.1")}
                             </Link>
                         </li>
                         <li className="top-menu-list-links-item">
                             <Link smooth to='#main'>
-                                Main dishes
+                                {t("menu.food-type.2")}
                             </Link>
                         </li>
                         <li className="top-menu-list-links-item">
                             <Link smooth to='#samsa'>
-                                Samsa
+                                {t("menu.food-type.3")}
                             </Link>
                         </li>
                         <li className="top-menu-list-links-item">
                             <Link smooth to='#grill'>
-                                Grill
+                                {t("menu.food-type.4")}
                             </Link>
                         </li>
                         <li className="top-menu-list-links-item">
                             <Link to='#kebab'>
-                                Kebab
+                                {t("menu.food-type.5")}
                             </Link>
                         </li>
                         <li className="top-menu-list-links-item">
                             <Link smooth to='#drinks'>
-                                Drinks
+                                {t("menu.food-type.6")}
                             </Link>
                         </li>
                     </ul>

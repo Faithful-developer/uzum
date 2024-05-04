@@ -8,13 +8,16 @@ import info2 from '../../assets/images/info-2.png'
 import adv from '../../assets/images/adv-logo.png'
 import Footer from "../../container/Footer";
 import {Helmet} from "react-helmet";
+import {useTranslation} from "react-i18next";
 
 const HomePage = () => {
+
+    const {t} = useTranslation()
 
     return (
         <>
             <Helmet>
-                <title>Uzum uz | Home Page</title>
+                <title>Uzum uz | {t("header.title")}</title>
             </Helmet>
             <section className="home-intro">
             </section>
@@ -26,7 +29,7 @@ const HomePage = () => {
                             <Link to='/'>
                                 <img src={Beshbarmak} alt=""/>
                                 <span className="name">
-                                    Beshbarmak
+                                    {t("food-type.0")}
                                 </span>
                             </Link>
                         </li>
@@ -34,7 +37,7 @@ const HomePage = () => {
                             <Link to='/'>
                                 <img src={Manti} alt=""/>
                                 <span className="name">
-                                    Manti
+                                     {t("food-type.1")}
                                 </span>
                             </Link>
                         </li>
@@ -42,14 +45,14 @@ const HomePage = () => {
                             <Link to='/'>
                                 <img src={Tandir} alt=""/>
                                 <span className="name">
-                                    Tandoor meat
+                                    {t("food-type.2")}
                                 </span>
                             </Link>
                         </li>
                     </ul>
                     <div className="btn-container">
                         <button className="order-btn">
-                            Order Now
+                            {t("order-btn")}
                         </button>
                     </div>
                 </div>
@@ -62,13 +65,10 @@ const HomePage = () => {
                         </div>
                         <div className="info-list-right">
                             <h2 className="info-list-right-title">
-                                About Us
+                                {t("info-section.about.title")}
                             </h2>
                             <p className="info-list-right-subtitle">
-                                Our national restaurant offers you unforgettable taste and experience. At Uzum National
-                                Restaurant, we take pride in honoring these time-honored culinary traditions while
-                                infusing them with a contemporary twist. Our journey began with a passion for sharing
-                                the authentic flavors of Uzbekistan with our clients.
+                                {t("info-section.about.context")}
                             </p>
                         </div>
                     </div>
@@ -78,12 +78,10 @@ const HomePage = () => {
                         </div>
                         <div className="info-list-right">
                             <h2 className="info-list-right-title">
-                                Reservation
+                                {t("info-section.reservation.title")}
                             </h2>
                             <p className="info-list-right-subtitle">
-                                At Uzum National Restaurant, we take pride in curating an atmosphere that embraces the
-                                spirit of Uzbek hospitality. Our friendly and attentive staff are dedicated to ensuring
-                                that every guest feels welcomed and cared for from the moment they arrive.
+                                {t("info-section.reservation.context")}
                             </p>
                         </div>
                     </div>
@@ -94,7 +92,7 @@ const HomePage = () => {
                     <div className="advertisement-box">
                         <img src={adv} className='advertisement-box-logo' alt="logo"/>
                         <h2 className='advertisement-box-title'>
-                            Where Every Meal Feels Like Home
+                            {t("ads-banner")}
                         </h2>
                     </div>
                 </div>
